@@ -82,16 +82,17 @@
     .descricao-servico span {
         margin-top: 15px;
         display: flex;
-        font-size: 40px;
-        line-height: 49px;
+        font-size: 34px;
+        line-height: 39px;
         font-weight: 400;
-        width: 95%;
+        width: 100%;
         color: rgb(100 100 100);
-        font-weight: 500;
+        font-weight: 700;
+        padding-bottom: 15px;
     }
 
     .descricao-servico p {
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 200;
         color: #959595;
         line-height: 34px;
@@ -101,41 +102,41 @@
         margin: auto;
     }
 
-    .servicos li {
-        padding: 15px;
-        display: flex;
-        align-items: center;
-        color: #797979;
-        transition: all .2s ease-in-out;
-      
-    }
+
+   
     .servicos {
-        text-align: center;
         line-height: 50px;
         list-style: none;
         font-size: 30px;
         grid-gap: 0;
-        justify-content: center;
         display: grid;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
         display: flex;
+        justify-content: center;
+        width: 95%;
+        margin-top: 25px;
     }
 
+    .servicos li {
+        padding: 0px;
+        border-radius: 10px;
+        color: #797979;
+        transition: all .2s ease-in-out;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    -------------------------------------------------------
     .agendacultural h2 {
      
             font-size: 45px;
             font-weight: 300;
             text-align: center;
             width: 100%;
-            /* margin-bottom: 25px; */
-            /* margin-left: 5%; */
-            /* margin-top: 25px; */
             font-weight: 700;
-            /* margin: auto; */
             text-align: center;
-            /* margin-right: 0; */
             margin: auto;
             margin-bottom: 25px;
             margin-top: 25px;
@@ -155,7 +156,6 @@
     }
 
     #agenda-container .agenda1 {
-        /* width: 100%; */
         background: #f9f9f9;
         padding: 5px;
         border: 1px solid #edededcf;
@@ -194,12 +194,8 @@
         display: flex;
         justify-content: stretch;
         align-items: center;
-        /* margin: auto; */
         width: 95%;
-        /* flex-direction: column-reverse; */
-        height: 95vh;
-        /* margin: auto; */
-        /* column-gap: 39px; */
+        height: 90vh;
     }
     .contatodown {
         width: 100%;
@@ -217,15 +213,12 @@
     }
     .logorodape {
        width: 100%;
-        /* margin: auto; */
-        /* box-sizing: border-box; */
         padding: 20px;
         justify-content: center;
         align-items: left;
         flex-direction: column;
         position: relative;
         text-align: left;
-        /* padding-top: 0; */
     }
     .logoonedown h1 {
         width: 95%;
@@ -256,7 +249,6 @@
         box-sizing: border-box;
         padding: 5px;
         border-radius: 5px;
-        /* border: 0.2px solid #f5f5f5; */
         box-shadow: 0 0 1px #bebebe;
         flex-direction: column;
     }
@@ -278,19 +270,15 @@
     }
 
     .nome-site {
-        /* width: 90%; */
         text-align: left;
         padding: 20px;
-        /* background-color: #f3f3f3; */
         color: #006eff;
         font-size: 22px;
-        /* margin: auto; */
         padding-top: 0px;
         padding-bottom: 5px;
     }
 
     .main-content .menu {
-        /* display: flex; */
         justify-content: space-between;
         padding: 15px;
        width: 100%;
@@ -309,5 +297,27 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+        background-position: right;
     }
+
+    .servicos-gerais {
+        display: flex;
+        width: auto;
+        margin: auto;
+        text-align: end;
+        flex-direction: column-reverse;
+        justify-content: end;
+        margin-top: 30px;
+        height: 95vh;
+    }
+
+    .servicos-gerais img {
+        right: 0;
+        top: 200px;
+        z-index: 5;
+        filter: drop-shadow(0px 0px 6px rgb(98, 179, 245));
+        width: 70%;
+    }
+    
+
 }
