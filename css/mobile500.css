@@ -175,25 +175,32 @@
     }
 
     .descricao-one p {
-        font-size: 45px;
+        font-size: 34px;
         border-radius: 15px;
         padding: 15px;
         color: rgb(100 100 100);
-        line-height: 48px;
+        line-height: 39px;
         font-weight: 700;
+    }
+    .descricao-one span {
+        margin-top: 6px;
+        display: flex;
+        font-size: 22px;
+        line-height: 29px;
+        font-weight: 400;
     }
 
     .descricao-onemidia {
         display: flex;
-        justify-content: center;
+        justify-content: stretch;
         align-items: center;
-        margin: auto;
+        /* margin: auto; */
         width: 95%;
-        flex-direction: column-reverse;
-        /* height: 100vh; */
-        margin: auto;
+        /* flex-direction: column-reverse; */
+        height: 95vh;
+        /* margin: auto; */
+        /* column-gap: 39px; */
     }
-
     .contatodown {
         width: 100%;
         position: relative;
@@ -268,5 +275,39 @@
         justify-content: center;
         flex-direction: column;
         margin: 1px;
+    }
+
+    .nome-site {
+        /* width: 90%; */
+        text-align: left;
+        padding: 20px;
+        /* background-color: #f3f3f3; */
+        color: #006eff;
+        font-size: 22px;
+        /* margin: auto; */
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .main-content .menu {
+        /* display: flex; */
+        justify-content: space-between;
+        padding: 15px;
+       width: 100%;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .menu h3 {
+        display: none;
+    }
+
+    .background {
+        width: 100%;
+        background: url(../img/background_section.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
     }
 }
