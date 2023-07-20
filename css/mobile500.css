@@ -1,0 +1,272 @@
+@media (max-width: 500px){
+    .plataformas h2 {
+        padding: 15px;
+        margin-bottom: 25px;
+        font-size: 45px;
+        margin-top: 50px;   
+    }
+
+    .interface {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .interfacevmix, .livestreamstudio, .obs {
+        width: 95%;
+        background-color: #e2e2e21e;
+        box-sizing: border-box;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 0.3px 0.3px 3px #ececec;
+        margin: auto;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .plataformas p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+
+    .descricao-webradio {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 95%;
+        margin: auto;
+    }
+
+    .descricao-webradio img {
+        right: 0;
+        top: 200px;
+        z-index: 5;
+        width: 76%;
+        margin-top: 25px;
+    }
+
+    .descricao-radio h2 {
+        color: var(--color-main);
+        font-size: 50px;
+        box-sizing: border-box;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .descricao-radio p {
+        font-size: 40px;
+        border-radius: 15px;
+        padding: 15px;
+        color: rgb(100 100 100);
+        line-height: 40px;
+        font-weight: 700;
+    }
+    .descricao-radio span {
+        margin-top: 25px;
+        display: flex;
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .descricao-servico h2 {
+        width: 95%;
+        color: var(--color-main);
+        font-size: 45px;
+        box-sizing: border-box;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .descricao-servico span {
+        margin-top: 15px;
+        display: flex;
+        font-size: 40px;
+        line-height: 49px;
+        font-weight: 400;
+        width: 95%;
+        color: rgb(100 100 100);
+        font-weight: 500;
+    }
+
+    .descricao-servico p {
+        font-size: 26px;
+        font-weight: 200;
+        color: #959595;
+        line-height: 34px;
+        text-align: left;
+        margin-bottom: 10px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .servicos li {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        color: #797979;
+        transition: all .2s ease-in-out;
+      
+    }
+    .servicos {
+        text-align: center;
+        line-height: 50px;
+        list-style: none;
+        font-size: 30px;
+        grid-gap: 0;
+        justify-content: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .agendacultural h2 {
+     
+            font-size: 45px;
+            font-weight: 300;
+            text-align: center;
+            width: 100%;
+            /* margin-bottom: 25px; */
+            /* margin-left: 5%; */
+            /* margin-top: 25px; */
+            font-weight: 700;
+            /* margin: auto; */
+            text-align: center;
+            /* margin-right: 0; */
+            margin: auto;
+            margin-bottom: 25px;
+            margin-top: 25px;
+            border-bottom: 1px solid #000;
+    }
+
+    #agenda-container {
+        display: grid;
+        flex-direction: column;
+        width: 95%;
+        grid-template-columns: 400px 400px;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin: auto;
+    }
+
+    #agenda-container .agenda1 {
+        /* width: 100%; */
+        background: #f9f9f9;
+        padding: 5px;
+        border: 1px solid #edededcf;
+        border-radius: 5px;
+        height: fit-content;
+        transform: translateY(0px);
+        transition: all .3s ease-in-out;
+        margin: auto;
+    }
+
+    .section_geek {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        position: relative;
+    }
+
+    .descricao-one p {
+        font-size: 45px;
+        border-radius: 15px;
+        padding: 15px;
+        color: rgb(100 100 100);
+        line-height: 48px;
+        font-weight: 700;
+    }
+
+    .descricao-onemidia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 95%;
+        flex-direction: column-reverse;
+        /* height: 100vh; */
+        margin: auto;
+    }
+
+    .contatodown {
+        width: 100%;
+        position: relative;
+        font-size: 14px;
+        color: rgb(107, 107, 107);
+    }
+
+    .logodown {
+        display: flex;
+        flex-direction: column;
+    }
+    .redesocialdown {
+        width: 100%;
+    }
+    .logorodape {
+       width: 100%;
+        /* margin: auto; */
+        /* box-sizing: border-box; */
+        padding: 20px;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        position: relative;
+        text-align: left;
+        /* padding-top: 0; */
+    }
+    .logoonedown h1 {
+        width: 95%;
+        margin: auto;
+        padding: 15px;
+        padding-left: 0;
+        color: rgb(0, 110, 255);
+    }
+
+    #videoplayer {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        height: 222px;
+    }
+
+    .game1 img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 1px 1px 3px #a7a2a7;
+    }
+    .game1 {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5%;
+        background-color: #fbfbfb;
+        box-sizing: border-box;
+        padding: 5px;
+        border-radius: 5px;
+        /* border: 0.2px solid #f5f5f5; */
+        box-shadow: 0 0 1px #bebebe;
+        flex-direction: column;
+    }
+
+    .scrollgamer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 1px;
+    }
+
+    .scrollgamer .scrollgamer0 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1px;
+    }
+}
